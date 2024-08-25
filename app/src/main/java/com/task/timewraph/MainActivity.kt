@@ -21,17 +21,13 @@ class MainActivity : AppCompatActivity() {
             Video("Video 2", R.raw.video2),
             Video("Video 3", R.raw.video3)
         )
-//        val videoList = listOf(
-//            Video("Video 1", R.raw.video1),
-//            Video("Video 2", R.raw.video2),
-//            Video("Video 3", R.raw.video3)
-//        )
+
 
         recyclerView = findViewById(R.id.recyclerView)
 
         videoAdapter = VideoAdapter(videoList, this)
         recyclerView.adapter = videoAdapter
 
-        recyclerView = findViewById(R.id.recyclerView)
+//        recyclerView = findViewById(R.id.recyclerView)
     }
 }

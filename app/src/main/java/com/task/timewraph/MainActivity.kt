@@ -31,5 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         videoAdapter = VideoAdapter(videoList, this)
         recyclerView.adapter = videoAdapter
+
+        recyclerView = findViewById(R.id.recyclerView)
     }
 }
